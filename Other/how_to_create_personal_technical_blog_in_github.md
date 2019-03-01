@@ -25,6 +25,10 @@
 - 配置博客
 ```
 将库clone下来，clone的方式可以选择ssh或者https
+clone下来后，修改_config.yml文件，内容如下：
+theme: jekyll-theme-slate
+title: Bruce
+description: "专注MySQL运维"
 ```
 - 可以开始更新博客了
 ### 关于github page所使用的jekyll使用帮助
