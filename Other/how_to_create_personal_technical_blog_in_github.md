@@ -33,8 +33,8 @@ description: "专注MySQL运维"
 5. 可以开始更新博客了
 
 ### 关于github page所使用的jekyll使用帮助
-- github的帮助文档：[链接](https://help.github.com/en/articles/configuring-jekyll)
+- github的帮助文档:[链接](https://help.github.com/en/articles/configuring-jekyll)
 - 怎样使用github pages:[链接](https://help.github.com/en/articles/using-jekyll-as-a-static-site-generator-with-github-pages)
-- jekyll的官方配置帮助文档：[链接](https://jekyllrb.com/docs/configuration/)
+- jekyll的官方配置帮助文档:[链接](https://jekyllrb.com/docs/configuration/)
 - jekyll的一个配置示例:[链接](https://github.com/daattali/beautiful-jekyll/blob/master/_config.yml)
 - github的markdown语法:[链接](https://guides.github.com/features/mastering-markdown/)
