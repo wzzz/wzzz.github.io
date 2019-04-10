@@ -1,3 +1,10 @@
 theme: jekyll-theme-slate
 title: Bruce
 description: "专注数据库运维"
+markdown: kramdown
+plugins:
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-feed
