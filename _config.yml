@@ -2,6 +2,7 @@ theme: jekyll-theme-slate
 title: Bruce
 description: "专注数据库运维"
 markdown: kramdown
+permalink: pretty
 plugins:
   - jekyll-mentions
   - jemoji

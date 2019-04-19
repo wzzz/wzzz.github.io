@@ -1,13 +1,14 @@
 ---
-layout: default
 title: 所有文章
 ---
+
+<h1>所有文章列表</h1>
 
 <!-- 遍历分页后的文章 -->
 {% for post in paginator.posts %}
 <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
 <p class="author">
-<span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
+分类：<span>{{ post.category }};</span><span class="date">发表于{{ post.date | date: "%Y-%m-%d" }}</span>
 </p>
 {% endfor %}
 
@@ -15,13 +16,9 @@ title: 所有文章
 <div class="pagination">
 {% if paginator.previous_page %}
 <a href="/page{{ paginator.previous_page }}" class="previous">上一页</a>
-{% else %}
-<span class="previous">上一页</span>
 {% endif %}
 <span class="page_number ">{{ paginator.page }}/{{ paginator.total_pages }}页</span>
 {% if paginator.next_page %}
 <a href="/page{{ paginator.next_page }}" class="next">下一页</a>
-{% else %}
-<span class="next ">下一页</span>
 {% endif %}
 </div>
